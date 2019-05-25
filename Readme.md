@@ -16,7 +16,8 @@
 - Récupérer la seconde image lsb_RGB.png via gpg et le mot de passe
 
 ## Image
-- Il y a un truc de caché dans l'image via LSB (j'y connais rien) -> image/output
-- Le reste quand j'ai un peu de temps ....
+- Il y a un truc de caché dans l'image via LSB (j'y connais rien en LSB) apparement c'est un binaire.
+- la commande `/openstego.sh extract -sf ../lsb_RGB.png -xf stego` me demande un password.. Alors que le script Python lui n'arrive à m'extraire que du texte unicode
+- A venir
 
 
