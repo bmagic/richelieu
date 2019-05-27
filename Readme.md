@@ -24,5 +24,10 @@
 
 ## Defi1 
 - On se connecte au serveur via les info de suite.txt
-- En cours
+- L'idée c'est d'utiliser le programme  prog.bin qui est toujours exécuté avec les permissions de l'utilisateur qui peut lire le flag.
+- On créé un faux bin sl qui fait `cat /home/defi1/drapeau.txt` dans un répertoire bin et on le rend exécutable
+- On link aussi le binaire cat dans ce répertoire (le systeme ne le trouverait plus sinon une fois le path changé)
+- On change le path PATH=~/bin 
+- On exécute prog.bin 
+- On choisit l'option 3 pour qu'il exécute sl 
 
