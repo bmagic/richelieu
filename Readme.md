@@ -33,5 +33,6 @@
 
 ## Defi2 
 - On se connecte au serveur via les infos du challenge suivant (suite2.txt)
-- Je pense que c'est pas de mon niveau ici ... de ce que je vois le prog.bin eclate en segmentationfault quand on lui passe un password trop grand qui respecte les contraintes (Majuscule / char spécial et longeur). Donc je pense qu'on doit pouvoir exploiter cela avec gdb mais bon trop loin de mon niveau pour le moment si c'est ça ...
+- Je pense que c'est pas de mon niveau ici ... de ce que je vois le prog.bin eclate en segmentationfault quand on lui passe un password trop grand qui respecte les contraintes (Majuscule / char spécial et longeur). Donc je pense qu'on doit pouvoir exploiter cela avec gdb mais bon trop loin de mon niveau pour le moment si c'est ça ... 
+Bref le challenge s'arrête ici pour moi pas le temps en ce moment de monter en compétence sur l'exploitation de Buffer over flow.
 
