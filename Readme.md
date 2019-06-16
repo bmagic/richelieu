@@ -19,7 +19,7 @@
 - Il y a un truc de caché dans l'image via LSB (j'y connais rien en LSB) apparement c'est un binaire.
 - En utilisant lsb-tools on peut extraire un fichier qui contient de l'hexa (`python2 ./lsb-toolkit-master/lsb-extract.py -f lsb_RGB.png -o binary -b 0 -c rgb`)
 - On le nettoie avec cut et on remet tout ca en hexa bien comme il faut `xxd -r -p binaryclean4  binaryfinal`
-- On regarde avec un décomplilateur ou le binaire check le mot de passe et on le reconstruit (c'est très long, indice cherchez le xor) maybe il y a plus rapide.
+- On regarde avec un décomplilateur ou le binaire check le mot de passe et on le reconstruit (c'est très long, indice cherchez le xor) maybe il y a plus rapide maybe ça (https://www.kali-linux.fr/hacking/debuter-en-crackme-avec-gdb) 
 - On peut ouvrir le fichier suite.zip qui nous envoie vers le defi1
 
 ## Defi1 
